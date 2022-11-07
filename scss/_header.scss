@@ -1,0 +1,128 @@
+header {
+  height: 60px;
+  width: 100vw;
+
+  .navbar {
+    background-color: map-get($color, "secundario");
+    z-index: 1;
+    .navbar-toggler {
+      height: auto;
+      width: auto;
+      margin-right: 20px;
+      background-color: map-get($color, "focus");
+      color: map-get($color, "negro");
+      box-shadow: map-get($color, "sombra");
+
+      &:hover {
+        background: map-get($color, "gradient-pastel");
+        background-color: map-get($color, "secundario");
+        border: none;
+      }
+    }
+
+    #navbarSupportedContent {
+      width: auto;
+
+      ul {
+        .nav-item {
+          width: auto;
+          padding: 8px 15px;
+          border-radius: 3px;
+
+          &:hover {
+            transition: 0.5s;
+            background-color: map-get($color, "focus");
+          }
+
+          a {
+            @include fuente-condensed;
+            font-size: 1.25rem;
+            color: map-get($color, "negro");
+
+            i {
+              padding-right: 3px;
+            }
+          }
+
+          ul {
+            width: auto;
+            background-color: map-get($color, "secundario");
+            padding: 0;
+            margin: 0;
+
+            #menu-rece {
+              background: map-get($color, "focus");
+              border-bottom: none;
+
+              a {
+                width: 30%;
+                color: map-get($color, "blanco");
+
+                &:hover {
+                  transition: 0.8s;
+                  background: map-get($color, "focus");
+                  color: map-get($color, "negro");
+                }
+              }
+            }
+
+            li {
+              a {
+                width: 30%;
+                color: map-get($color, "gris");
+                padding: 15px 1px 15px 15px;
+
+                &:hover {
+                  transition: 0.8s;
+                  width: 100%;
+                  background: map-get($color, "gradient-pastel");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .style-search {
+      position: relative;
+    }
+
+    .style-search input {
+      width: $nav-width + 100px;
+      height: $nav-height - 35px;
+      font-size: small;
+      border-radius: 50px;
+      text-indent: 18px;
+      margin: 5px 0;
+
+      &:enabled {
+        box-shadow: none;
+        border: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      &:focus {
+        transition: 1s;
+        background-color: map-get($color, "focus");
+      }
+    }
+
+    .style-search svg {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  .style-logo {
+    fill: map-get($color, "sombra-svg");
+  }
+
+  .style-logo img {
+    height: 55px;
+    margin: 3px 0 0px 20px;
+    padding: 0 10px 5px 0;
+  }
+}

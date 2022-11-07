@@ -1,0 +1,16 @@
+#main-3 {
+  @include mains;
+  padding: 2%;
+  background: map-get($color, "gradient-pastel");
+
+  .articulo {
+    @include articulos;
+    border-radius: 5px;
+  }
+
+  #img-goveg {
+    border-radius: 5px;
+    max-width: 100%;
+    width: 100vw;
+  }
+}

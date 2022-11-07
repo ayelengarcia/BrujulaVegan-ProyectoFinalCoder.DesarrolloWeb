@@ -1,0 +1,30 @@
+$nav-height: 60px;
+$nav-width: 100px;
+$marg-btn: 5px;
+$marg-input: 10px;
+$width-btn: 100%;
+$height-btn: 25px;
+$delay: null;
+
+// MAPA
+$color: (
+  // colores
+  "primario": #cfb6fd,
+  "secundario": #f4eee1,
+  "blanco": #ffffff,
+  "negro": #78767c,
+  "gris": #a6a4aa,
+  "focus": #e4dac2,
+  "violeta": #9371d1,
+  "violeta-2": #b99af3,
+  "violeta-3": #b99af3a0,
+  // gradientes
+  "gradient-dark":
+    linear-gradient(180deg, #302c2c -18.18%, rgba(217, 217, 217, 0) 100%),
+  "gradient-pastel":
+    linear-gradient(173.58deg, #e4dac2 -27.35%, rgba(217, 217, 217, 0) 94.95%),
+  // sombras
+  "sombra": 0px 4px 4px rgba(0, 0, 0, 0.25),
+  "sombra-2": -3px 3px 4px rgba(0, 0, 0, 0.75),
+  "sombra-svg": drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+);

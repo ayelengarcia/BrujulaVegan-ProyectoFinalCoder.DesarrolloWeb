@@ -1,0 +1,41 @@
+$img-recetas: (
+  "img-rece1": url(../assets/Pan-Relleno.webp),
+  "img-rece2": url(../assets/Tortilla.webp),
+  "img-rece3": url(../assets/Nuggets1.webp),
+  "img-rece4": url(../assets/Muffines.webp),
+  "img-rece5": url(../assets/Medialunas.webp),
+  "img-rece6": url(../assets/recebudin.webp),
+  "img-rece7": url(../assets/Lecheavena.webp),
+  "img-rece8": url(../assets/Lechemani.webp),
+  "img-rece9": url(../assets/lechesoja.webp),
+  "img-rece10": url(../assets/quesopapa.webp),
+  "img-rece11": url(../assets/quesogirasol.webp),
+  "img-rece12": url(../assets/rawmesan.webp),
+  "img-rece13": url(../assets/snacks_.webp),
+  "img-rece14": url(../assets/bizcochitos.webp),
+  "img-rece15": url(../assets/chipas.webp),
+);
+
+@each $nombre, $imagenes in $img-recetas {
+  .#{$nombre} {
+    background-image: $imagenes;
+  }
+}
+
+$img-carousel: (
+  "cuadro-gris": url(../assets/Cuadro-gris.webp),
+  "destacada-1": url(../assets/Destacada1_1.webp),
+  "destacada-2": url(../assets/Destacada2_1.webp),
+  "destacada-3": url(../assets/Destacada3_1.webp),
+  "carousel-principales": url(../assets/Principales.webp),
+  "carousel-dulces": url(../assets/Dulces.webp),
+  "carousel-leches": url(../assets/Leches.webp),
+  "carousel-quesos": url(../assets/Quesos.webp),
+  "carousel-snacks": url(../assets/Snacks.webp),
+);
+
+@each $nombre, $imagenes in $img-carousel {
+  .#{$nombre} {
+    background-image: $imagenes;
+  }
+}

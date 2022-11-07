@@ -1,0 +1,61 @@
+main {
+  #main-5 {
+    @include mains;
+    padding: 20px 0;
+    background: url(../assets/Contacto.png);
+    background-size: cover;
+
+    .form {
+      @include form;
+      width: auto;
+      height: auto;
+      padding: auto;
+
+      .form-header {
+        .form-tittle {
+          @include form-title;
+        }
+      }
+
+      .form-label {
+        display: block;
+        font-size: 15px;
+      }
+
+      .form-input {
+        @include form-area;
+
+        &:focus {
+          background-color: map-get($color, "focus");
+        }
+      }
+
+      .form-textarea {
+        @include form-area;
+        resize: vertical;
+        max-height: 150px;
+        min-height: 100px;
+
+        &:focus {
+          background-color: map-get($color, "focus");
+        }
+      }
+
+      .form-label-check,
+      .form-label {
+        color: map-get($color, "negro");
+      }
+
+      .btn {
+        @include btn;
+        height: auto;
+        margin: $marg-btn $marg-btn;
+        background-color: map-get($color, "violeta-2");
+
+        &:hover {
+          background: map-get($color, "violeta");
+        }
+      }
+    }
+  }
+}

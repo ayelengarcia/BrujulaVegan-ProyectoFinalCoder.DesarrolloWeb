@@ -1,0 +1,48 @@
+#main-2 {
+  @include mains;
+  padding: 30px 0;
+  background: url(../assets/vegane2.png);
+
+  .animate__bounceIn {
+    animation-duration: 3s;
+  }
+
+  h1 {
+    font-size: 2.2em;
+    padding: 0 30px;
+    text-shadow: none;
+    color: map-get($color, "gris");
+  }
+  h2 {
+    color: map-get($color, "blanco");
+  }
+
+  #carouselExampleControls {
+    @include style-carousel;
+  }
+
+  #accordion {
+    #accordionExample {
+      margin-top: 5%;
+      z-index: 100;
+
+      .accordion-item {
+        background: map-get($color, "secundario");
+
+        @include btn-acordion;
+
+        @include contenido-acordion;
+
+        p,
+        li {
+          color: map-get($color, "negro");
+        }
+
+        .bi {
+          padding: 0 5px;
+          color: map-get($color, "primario");
+        }
+      }
+    }
+  }
+}

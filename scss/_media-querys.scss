@@ -1,0 +1,130 @@
+body {
+  @media (min-width: 576px) {
+    #main-2 {
+      #carouselExampleControls {
+        padding: 0 15px;
+      }
+    }
+  }
+
+  main {
+    #main-5 {
+      .form {
+        padding: 40px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    #main-4 {
+      #videos {
+        .style-frames {
+          .style-all-frames {
+            width: 49vw;
+            height: 230px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  #main-2 {
+    #carouselExampleControls {
+      padding: 0 100px;
+
+      .accordion-item {
+        .style-h4 {
+          font-size: 1em;
+        }
+      }
+    }
+  }
+
+  #main-3 {
+    font-size: 1em;
+
+    article {
+      padding: 0px 40px !important;
+    }
+  }
+
+  main {
+    #main-4 {
+      #videos {
+        .intro-vd {
+          font-size: 1em;
+        }
+      }
+    }
+  }
+
+  main {
+    #main-5 {
+      font-size: 1em;
+      padding: 20px 30px;
+
+      .btn {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  #main-2 {
+    #carouselExampleControls {
+      padding: 0 180px;
+    }
+
+    #accordionExample {
+      padding: 0 130px;
+    }
+  }
+
+  main {
+    #main-4 {
+      #videos {
+        .intro-vd {
+          h1{
+            padding-bottom: 5px;
+          }
+          font-size: 1.2em;
+        }
+        .style-frames {
+          .style-all-frames {
+            height: 300px;
+          }
+        }
+      }
+    }
+  }
+
+  #main-5 {
+    font-size: 1em;
+    padding: 20px 150px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #main-3 {
+    article {
+      padding: 0px 65px !important;
+    }
+  }
+
+  main {
+    #main-4 {
+      #videos {
+        .style-frames {
+          .style-all-frames {
+            height: 400px;
+          }
+        }
+      }
+    }
+  }
+}

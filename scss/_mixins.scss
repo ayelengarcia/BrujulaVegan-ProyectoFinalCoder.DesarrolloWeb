@@ -1,0 +1,359 @@
+// animación-bucle
+@mixin timeanimate($delay) {
+  animation-delay: $delay;
+}
+
+@mixin reset {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin reset-stylesboostrap {
+  .row,
+  .col,
+  .d-flex,
+  .navbar,
+  .accordion-body,
+  .container-fluid,
+  #accordionExample {
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+@mixin scroll {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: map-get($color, "secundario");
+  }
+  ::-webkit-scrollbar-thumb {
+    background: map-get($color, "gris");
+    border-radius: 10px;
+  }
+}
+
+@mixin fuente-principal {
+  font-family: "Roboto";
+  font-variant: small-caps;
+  font-style: normal;
+  text-shadow: map-get($color, "sombra");
+}
+
+@mixin fuente-condensed {
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-variant: small-caps;
+  color: map-get($color, "blanco");
+}
+
+@mixin fuentes {
+  .style-h1 {
+    @include fuente-principal;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 3rem;
+    color: map-get($color, "blanco");
+    text-shadow: map-get($color, "sombra-2");
+  }
+
+  .style-h2 {
+    @include fuente-principal;
+    font-weight: 579;
+    font-size: 2.6em;
+    color: map-get($color, "violeta");
+  }
+
+  .style-h3 {
+    @include fuente-condensed;
+    font-size: 1.2rem;
+    font-weight: 500px;
+    backdrop-filter: blur(4px);
+    background: rgba(71, 71, 71, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  }
+
+  .style-h3--inicio {
+    @include fuente-condensed;
+    font-size: 1.8rem;
+  }
+
+  .style-h4 {
+    @include fuente-principal;
+    font-weight: 550;
+    font-size: 1.3rem;
+    line-height: 28px;
+    color: map-get($color, "blanco");
+    text-shadow: none;
+  }
+}
+
+@mixin titulos {
+  padding: 15px;
+  width: 100vw;
+}
+
+@mixin style-body {
+  body {
+    width: 100vw;
+    height: 100vh;
+    font-family: roboto;
+    background-color: map-get($color, "secundario");
+    overflow-x: hidden;
+  }
+}
+
+@mixin mains {
+  width: 100vw;
+  height: auto;
+  font-size: 0.9em;
+}
+
+@mixin deco-cards {
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(95, 88, 67, 0.199);
+  box-shadow: map-get($color, "sombra");
+}
+
+@mixin carousel-index {
+  .cuadro-gris,
+  .destacada-1,
+  .destacada-2,
+  .destacada-3 {
+    max-width: 100vw;
+    width: 400px;
+    height: 292px;
+    border-radius: 3px;
+  }
+}
+
+@mixin style-carousel {
+  .carousel-principales,
+  .carousel-dulces,
+  .carousel-leches,
+  .carousel-quesos,
+  .carousel-snacks {
+    max-width: 100vw;
+    width: 380px;
+    height: 405px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-top: 5%;
+
+    .tarjeta {
+      padding: 5px;
+      width: 300px;
+      height: 150px;
+      text-indent: 20px;
+      border-radius: 10px;
+      margin: 135px 0 0 40px;
+      backdrop-filter: blur(4px);
+      color: map-get($color, "blanco");
+      background: rgba(255, 255, 255, 0.25);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+
+      a {
+        font-size: 1.03rem;
+        text-decoration: none;
+        color: map-get($color, "blanco");
+        .bi {
+          padding-left: 60px;
+          color: map-get($color, "violeta");
+        }
+      }
+      &:hover {
+        transition: 1s;
+        background-color: map-get($color, "violeta-3");
+        .bi {
+          transition: 1s;
+          color: map-get($color, "secundario");
+        }
+      }
+    }
+  }
+}
+
+@mixin btn-acordion {
+  .accordion-button {
+    height: 40px;
+    cursor: pointer;
+    text-align: left;
+    background: map-get($color, "focus");
+
+    &:hover {
+      background: map-get($color, "gradient-pastel");
+    }
+
+    &:enabled {
+      color: map-get($color, "negro");
+      box-shadow: none;
+    }
+  }
+}
+
+@mixin contenido-acordion {
+  .accordion-body {
+    .img-rece {
+      width: 100vw;
+      min-height: 200px;
+      max-width: 100%;
+      background-size: cover;
+
+      .accordion-header {
+        font-size: 1.5rem;
+        list-style: none;
+        text-shadow: none;
+
+        &:hover {
+          transition: 1s;
+          background-color: map-get($color, "violeta-3");
+          .bi {
+            transition: 1s;
+            color: map-get($color, "secundario");
+          }
+        }
+      }
+    }
+
+    .ingredientes {
+      ul li {
+        margin-left: -20px;
+        list-style-type: none;
+      }
+
+      p {
+        font-size: 1.1rem;
+        margin: 0px 8px 8px 8px;
+      }
+    }
+  }
+}
+
+@mixin articulos {
+  height: auto;
+  padding: 10px 35px !important;
+  margin: $marg-input 0;
+  color: map-get($color, "negro");
+
+  .style-h2 {
+    color: map-get($color, "blanco");
+  }
+}
+
+@mixin form {
+  width: 100vw;
+  border-radius: 5px;
+  background: map-get($color, "gradient-pastel");
+  @include deco-cards;
+}
+
+@mixin form-area {
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 14px;
+  width: $width-btn;
+  font-family: roboto;
+  margin-bottom: $marg-input;
+  color: map-get($color, "negro");
+  border-bottom: solid 2px map-get($color, "primario");
+}
+
+@mixin form-title {
+  padding: 10px;
+  text-align: center;
+  color: map-get($color, "blanco");
+}
+
+@mixin btn {
+  width: $width-btn;
+  height: $height-btn;
+  font-family: roboto;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 2px;
+  transition: all 1s ease;
+  margin: $marg-btn $marg-btn;
+  color: map-get($color, "blanco");
+  box-shadow: map-get($color, "sombra");
+  background: map-get($color, "primario");
+}
+
+@mixin cards {
+  .card {
+    max-width: 100vw;
+    width: 100vw;
+    padding: 0%;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    color: map-get($color, "negro");
+    background: map-get($color, "focus");
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+    h4 {
+      text-shadow: map-get($color, "sombra");
+    }
+
+    .bi-person-circle,
+    i {
+      margin: 0px 2px;
+      color: map-get($color, "violeta");
+    }
+
+    .btn-primary {
+      background-color: map-get($color, "violeta-2");
+      border: none;
+      box-shadow: none;
+
+      &:hover {
+        background: map-get($color, "violeta");
+      }
+
+      &:active {
+        border: none;
+      }
+    }
+
+    .corazon {
+      border: none;
+      padding-left: 10px;
+      color: map-get($color, "gris");
+      background-color: transparent;
+
+      &:hover {
+        color: red;
+      }
+    }
+  }
+}
+
+@mixin modal {
+  .modal-dialog {
+    width: 150px;
+    border-radius: 10px;
+    background-color: none;
+    backdrop-filter: blur(4px);
+    color: map-get($color, "blanco");
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+    .modal-content {
+      background: none;
+      background-color: none;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+
+      .modal-header {
+        border: none;
+      }
+    }
+  }
+}

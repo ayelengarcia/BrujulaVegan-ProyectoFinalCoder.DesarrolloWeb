@@ -1,0 +1,62 @@
+main {
+  #main-4 {
+    @include mains;
+    background-image: url(../assets/fondo-dibujovg.png);
+
+    h1,
+    h2 {
+      color: map-get($color, "blanco");
+      @include titulos;
+    }
+
+    #videos {
+      background: map-get($color, "gradient-pastel");
+
+      .intro-vd {
+        width: 95vw;
+        font-size: 0.85em;
+
+        p {
+          padding: 0 0 20px 20px;
+          color: map-get($color, "negro");
+        }
+      }
+
+      .style-frames {
+        width: 100vw;
+
+        .style-all-frames {
+          max-width: 100%;
+          width: 100vw;
+          height: 260px;
+          @include deco-cards;
+        }
+      }
+    }
+
+    #cards,
+    #comentarios {
+      background: map-get($color, "gradient-pastel");
+      #tarjetas-ig,
+      #comentarios-ig {
+        @include cards;
+      }
+    }
+
+    #exampleModal {
+      @include modal;
+      margin-top: 200px;
+
+      .modal:target .modal-dialog {
+        animation: show 1s;
+        animation-duration: 3s;
+      }
+
+      @keyframes show {
+        0% {
+          transform: translateY(-150vh);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import "./mixins";
+@import "./variables";
+@import "./bucles";
+@import "./eachs";
+@include fuentes;
+
+* {
+  @include reset;
+}
+
+@include reset-stylesboostrap;
+@include style-body;
+@import "./header";
+@import "./main-inicio";
+@import "./main-recetas";
+@import "./main-goveg";
+@import "./main-videos";
+@import "./main-contacto";
+@import "./footer";
+@import "./media-querys";
+@include scroll;

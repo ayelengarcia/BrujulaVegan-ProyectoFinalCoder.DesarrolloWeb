@@ -1,0 +1,87 @@
+#main {
+  @include mains;
+  margin: 0%;
+  padding: 0%;
+
+  .portada {
+    height: 80vh;
+    background-image: url(../assets/Fondo-verd2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    h2 {
+      text-shadow: none;
+    }
+
+    .btn {
+      @include btn;
+      height: auto;
+      width: auto;
+
+      &:hover {
+        background: map-get($color, "violeta-2");
+      }
+    }
+  }
+
+  #carouselExampleCaptions {
+    margin: 3% 0;
+    height: auto;
+    min-height: 400px;
+
+    .carousel-inner {
+      width: 90vw;
+      @include carousel-index;
+
+      .tarjeta {
+        @include deco-cards;
+
+        a {
+          list-style: none;
+          text-decoration: none;
+          color: map-get($color, "blanco");
+
+          i {
+            margin-right: 3px;
+            color: map-get($color, "primario");
+          }
+        }
+
+        &:hover {
+          transition: 1s;
+          background-color: map-get($color, "primario");
+
+          a {
+            color: map-get($color, "negro");
+
+            i {
+              color: map-get($color, "negro");
+            }
+          }
+        }
+      }
+
+      .cuadro {
+        h2 {
+          color: map-get($color, "blanco");
+          text-shadow: map-get($color, "sombra");
+        }
+        p {
+          color: map-get($color, "negro");
+        }
+        a {
+          text-decoration: none;
+        }
+
+        .btn {
+          @include btn;
+          height: auto;
+          width: auto;
+          &:hover {
+            background: map-get($color, "violeta-2");
+            color: map-get($color, "blanco");
+          }
+        }
+      }
+    }
+  }
+}

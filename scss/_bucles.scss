@@ -1,0 +1,18 @@
+// animación-bucle
+@for $i from 1 through 5 {
+  @if ($i==1) {
+    $delay: 0s;
+  } @else if ($i==2) {
+    $delay: 1s;
+  } @else if ($i==3) {
+    $delay: 1.3s;
+  } @else if ($i==4) {
+    $delay: 1.6s;
+  } @else if ($i==5) {
+    $delay: 2s;
+  }
+
+  .animate#{$i} {
+    @include timeanimate($delay);
+  }
+}
