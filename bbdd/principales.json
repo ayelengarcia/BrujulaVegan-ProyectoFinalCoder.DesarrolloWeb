@@ -1,0 +1,86 @@
+[
+  {
+    "img": "img-rece1",
+    "id": "flush-headingOne",
+    "dataTarget": "#flush-collapseOne",
+    "ariaControls": "flush-collapseOne",
+    "title": "Pan Relleno con Soja Texturizada",
+    "id2": "flush-collapseOne",
+    "show": "show",
+    "labelledby": "flush-headingOne",
+    "dataParent": "#accordionFlushExample",
+    "ingredient": [
+      "⚫2 tazas de harina",
+      "⚫1 sobrecito levadura en polvo",
+      "⚫1cda azúcar",
+      "⚫1 chorrito aceite",
+      "⚫Sal a gusto",
+      "⚫1 Cebolla",
+      "⚫1 Zapallito",
+      "⚫1 morrón",
+      "⚫3/4 Taza de soja texturizada",
+      "⚫1 Saborizante alicante de carne",
+      "⚫Sal, pimentón, ajo en polvo, comino, sal y pimienta, aceite y sal c/n"
+    ],
+    "classDescription": "",
+    "description": [
+      " 1️⃣Para el relleno picar la cebolla y rehogar con aceite y sal hasta que esté transparente,agregar el Zapallito en cubitos y rehogar junto con la cebolla e ir agregando agua para que no se seque el fondo. Cuando el Zapallito esté blandito agregarle aproximadamente 3/4 taza de agua, sazonar con el caldito y las especias y cocinar unos minutos para que se asienten los sabores, agregar la soja texturizada y cocinar hasta que la soja este hidratada y cocida.",
+      " 2️⃣Para la masa agregar en un recipiente la harina, en el centro hacer un hueco y agregar la cucharada de azúcar junto con la levadura, un chorrito de aceite y 1/4 aprox de taza de agua tibia, revolver junto con un poco de la harina y dejar fermentar por unos 10 minutos. Cuando se active la levadura empezar a integrar y agregar más agua si es necesario, antes de terminar de formar la masa agregarle la sal. Amasar durante 10 minutos. En una fuente estirarla con los dedos como si fuese una pizzeta y agregar el relleno en uno de los extremos para empezar a enrrollar y darle forma de pan de molde. Enviar a horno medio/fuerte durante 10-15 minutos."
+    ]
+  },
+  {
+    "img": "img-rece2",
+    "id": "flush-headingTwo",
+    "dataTarget": "#flush-collapseTwo",
+    "ariaControls": "flush-collapseTwo",
+    "title": "Tortilla sin huevos",
+    "id2": "flush-collapseTwo",
+    "show": "",
+    "labelledby": "flush-headingTwo",
+    "dataParent": "#accordionFlushExample",
+    "ingredient": [
+      "⚫1 Taza de harina de garbanzos.",
+      "⚫2 Papas medianas",
+      "⚫1 Espinaca",
+      "⚫1 Cebolla",
+      "⚫Ajo y perejil",
+      "⚫Sal y pimienta",
+      "⚫Aceite"
+    ],
+    "classDescription": "ingredientes--2",
+    "description": [
+      " 1️⃣ Sofreír cebollas picadas con un poco de aceite y retirar. En la misma sartén agregamos 3/4 taza de aceite más o menos y ponemos a sofreír las papas picadas, en cubos o finitas para lograr una tortilla más compacta. Las papas no tienen que flotar en aceite, simplemente tienen que estar bañadas para cocinarlas hasta que estén blanditas, como hicimos con las cebollas. Van a ver qué se ponen blanditas y doradas en algunas partes, no tengan miedo si se desarman es la idea. Si las quieren más livianas simplemente las hierven. Cuando vemos que ya casi está agregamos la espinaca para desmayarla en la preparación, apartamos todo y dejamos entibiar.",
+      " 2️⃣ En un voul agregamos la harina de garbanzos con poquito de agua y condimentar con ajo y perejil fresco, pimienta y sal a gusto. Nos tiene que quedar una mezcla como la de los panqueques, esto reemplazará el huevo. Le agregamos en el mismo voul el relleno de la tortilla e integramos bien todo.",
+      " 3️⃣ Ahora en una sartén que usen para tortilla agregan la preparación, antes un chorro de aceite y el fuego medio más o menos y dejamos cocinar muy bien hasta que lo veamos dorado de los costados. La giramos y hacemos lo mismo del otro lado."
+    ]
+  },
+  {
+    "img": "img-rece3",
+    "id": "flush-headingThree",
+    "dataTarget": "#flush-collapseThree",
+    "ariaControls": "flush-collapseThree",
+    "title": "Patitas de No Pollo",
+    "id2": "flush-collapseThree",
+    "show": "",
+    "labelledby": "flush-headingThree",
+    "dataParent": "#accordionFlushExample",
+    "ingredient": [
+      "⚫Tofu cortado en cubos y remojado en salsa de soja",
+      "1mer Rebozado:",
+      "⚫1/2 Taza de harina",
+      "⚫1Cdita de azúcar",
+      "⚫Sal, Ajo en polvo, pimentón",
+      "⚫1Sobrecito alicante sabor carne o pollo (apto vegan)",
+      "Marinado:",
+      "⚫1Taza de agua.",
+      "⚫1/4 Salsa de soja, pueden agregar chimichurri u otra salsa",
+      "⚫Entre 4 y 8cdas de harina de garbanzos (Mezcla parecida a panqueques)",
+      "2do rebozado:",
+      "⚫Pan rallado o panko"
+    ],
+    "classDescription": "",
+    "description": [
+      "🟦Al tofu ya remojado pasarlo por el marinado, luego por el 1mer rebozado. Luego pasarlo nuevamente por el marinado y volver a rebozar con pan rallado y panko. Y ya por último elegir cocción, puede ser frito o al horno se hace en pocos minutos. El tofu lo pueden comprar en dietéticas o hacerlo casero a base de frijoles o porotos de soja."
+    ]
+  } 
+]

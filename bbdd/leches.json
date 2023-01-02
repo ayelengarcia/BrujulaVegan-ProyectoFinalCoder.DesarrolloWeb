@@ -1,0 +1,64 @@
+[
+  {
+    "img": "img-rece7",
+    "id": "flush-headingOne",
+    "dataTarget": "#flush-collapseOne",
+    "ariaControls": "flush-collapseOne",
+    "title": "Leche de Avena",
+    "id2": "flush-collapseOne",
+    "show": "show",
+    "labelledby": "flush-headingOne",
+    "dataParent": "#accordionFlushExample3",
+    "ingredient": [
+      "⚫1 Taza de Avena",
+      "⚫1 Taza de agua hirviendo",
+      "⚫2 Tazas de agua de filtro"
+    ],
+    "classDescription": "ingredientes--2",
+    "description": [
+      "🟦En un recipiente agregar 1 taza de avena junto con 1 taza de agua hirviendo y dejar reposar entre 10 y 30 minutos.",
+      "🟦Luego del tiempo de remojo agregar esta mezcla a la licuadora o a un recipiente para licuar con mixer. Agregarle las 2 tazas de agua y licuar durante unos minutos. Filtrar  la mezcla con filtro de tela para obtener la leche de avena."
+    ]
+  },
+  {
+    "img": "img-rece8",
+    "id": "flush-headingTwo",
+    "dataTarget": "#flush-collapseTwo",
+    "ariaControls": "flush-collapseTwo",
+    "title": "Leche de maní",
+    "id2": "flush-collapseTwo",
+    "show": "",
+    "labelledby": "flush-headingTwo",
+    "dataParent": "#accordionFlushExample3",
+    "ingredient": [
+      "⚫1 Taza de maní tostado sin sal",
+      "⚫2/3 Tazas de agua",
+      "⚫2 y 1/2 Tazas de agua de filtro",
+      "⚫1 Cucharadita de bicarbonato de sodio"
+    ],
+    "classDescription": "ingredientes--",
+    "description": [
+      "🟦En este caso tenemos que remojar el maní durante 8horas. Antes de dejar en remojo enjuagar con abundante agua y lo dejarlo remojar en un recipiente con 2 o 3 tazas de agua y una cucharadita de bicarbonato de sodio. Si remojan por mas tiempo debemos ir cambiando el agua. Una vez remojados primero enjuagar bien, con abundante agua. Luego agregarlos a la licuadora o a un recipiente para mixear junto con las 2 y 1/2 tazas de agua bebible, y licuar/mixear durante unos minutos. Por  ultimo filtrar con filtro de tela para obtener nuestra leche de maní."
+    ]
+  },
+  {
+    "img": "img-rece9",
+    "id": "flush-headingThree",
+    "dataTarget": "#flush-collapseThree",
+    "ariaControls": "flush-collapseThree",
+    "title": "Leche de Soja",
+    "id2": "flush-collapseThree",
+    "show": "",
+    "labelledby": "flush-headingThree",
+    "dataParent": "#accordionFlushExample3",
+    "ingredient": [
+      "⚫2Tazas de frijoles de soja remojados 8hs.",
+      "⚫4Tazas de agua bebible."
+    ],
+    "classDescription": "ingredientes--2",
+    "description": [
+      "🟦Para el proceso de remojo hacemos el mismo procedimiento que con el maní. Una vez remojados licuar o mixear por 2/3 minutos los frijoles y lo filtrar con filtro de tela (Lo pueden conseguir en dietéticas) y separar bien la okara (residuos de la soja).",
+      "🟦Llevar la leche colada a fuego medio e ir quitando toda la espuma y la nata que se forma. Cuando llega a hervor bajarle el fuego a mínumo y dejarlo 30 minutos. Una vez haya enfriado estará lista para consumo u otras preparaciones."
+    ]
+  }
+]

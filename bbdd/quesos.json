@@ -1,0 +1,77 @@
+[
+  {
+    "img": "img-rece10",
+    "id": "flush-headingOne",
+    "dataTarget": "#flush-collapseOne",
+    "ariaControls": "flush-collapseOne",
+    "title": "Paparella o queso de papa",
+    "id2": "flush-collapseOne",
+    "show": "show",
+    "labelledby": "flush-headingOne",
+    "dataParent": "#accordionFlushExample4",
+    "ingredient": [
+      "⚫2 Papas hervidas",
+      "⚫8Cdas del caldo de las papas.",
+      "⚫1/4Taza de aceite de girasol.",
+      "⚫1/2 Limón exprimido.",
+      "⚫Sal, ajo y pimienta c/necesaria.",
+      "⚫1Caldito alicante sabor queso (vegano) o escencia.",
+      "⚫2Cdas de levadura nutricional.",
+      "(Pueden usar de sabor queso y omitir el caldito o escencia)"
+    ],
+    "classDescription": "ingredientes--2",
+    "description": [
+      "🟦Tan fácil como Mixear, procesar o licuar todos los ingredientes hasta obtener una textura lo más lisa posible. El aceite le da la textura de queso, si lo quieren más fundido le agregan el caldo de las papas y aceite de a cucharadas en partes iguales hasta tener una textura a gusto. Va a depender del tamaño de las papas. Pueden agregar otras especias como perejil 🤤"
+    ]
+  },
+  {
+    "img": "img-rece11",
+    "id": "flush-headingTwo",
+    "dataTarget": "#flush-collapseTwo",
+    "ariaControls": "flush-collapseTwo",
+    "title": "Queso gratinable de girasol",
+    "id2": "flush-collapseTwo",
+    "show": "",
+    "labelledby": "flush-headingTwo",
+    "dataParent": "#accordionFlushExample5",
+    "ingredient": [
+      "⚫1 Taza de semillas de girasol remojadas",
+      "⚫3 Tazas de agua",
+      "⚫2 Cdas fecula de maiz",
+      "⚫4 Cdas Fecula de mandioca",
+      "⚫Levadura nutricional sabor queso",
+      "o sobrecito alicante 4 quesos vegano",
+      "⚫1/2 limon exprimido o vinagre de manzana",
+      "⚫1cdita de curcuma",
+      "⚫Sal a gusto"
+    ],
+    "classDescription": "ingredientes--",
+    "description": [
+      "🟦Licuar o mixear las semillas de girasol con las 3 tazas de agua y filtrar con filtro de tela para separar la okara. A la leche que se obtiene agregarle todos los ingredientes e integrar bien. Para intregrar las feculas y que no queden grumos mezclar en un recipiente aparte con media taza de la leche y volver a integrar con toda la preparación. Enviar toda la preparación a fuego medio en una olla e ir revolviendolo hasta que se espece bien, una vez se espesa mantener por unos minutos más para que cuando se enfríe quede moldeado, siempre revolviendo. Enviar a un recipiente o tupper aceitado y dejar enfriar a temperatura ambiente, luego heladera y ya esta listo para desmoldar🔥",
+      "🟦Se puede repetir el procedimiento con otras semillas como mani, almendras les queda este quesito gratinable tipo muzza para pizzas empanadas sandwichs, tostados lo que quieran."
+    ]
+  },
+  {
+    "img": "img-rece12",
+    "id": "flush-headingThree",
+    "dataTarget": "#flush-collapseThree",
+    "ariaControls": "flush-collapseThree",
+    "title": "Rawmesan o Queso rallado",
+    "id2": "flush-collapseThree",
+    "show": "",
+    "labelledby": "flush-headingThree",
+    "dataParent": "#accordionFlushExample6",
+    "ingredient": [
+      "⚫1 Taza de semillas de girasol",
+      "⚫2 Cucharadas de levadura nutricional sabor queso.",
+      "(Se puede reemplazar por sobrecitos alicante sabor queso. Son veganos)",
+      "⚫1 Cucharadita de cúrcuma",
+      "⚫1 Cucharadita de Ajo",
+      "⚫Sal y pimienta a gusto."
+    ],
+    "classDescription": "ingredientes--2",
+    "description": [
+      "🟦Tan facil como agregar todos los ingredientes a un procesador o recipiente y mixear hasta obtener una textura de parmesano!."
+    ]
+  }
+]

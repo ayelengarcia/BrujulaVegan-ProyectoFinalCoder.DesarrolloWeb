@@ -1,0 +1,86 @@
+[
+  {
+    "img": "img-rece4",
+    "id": "flush-headingOne",
+    "dataTarget": "#flush-collapseOne",
+    "ariaControls": "flush-collapseOne",
+    "title": "Muffines o Magdalenas",
+    "id2": "flush-collapseOne",
+    "show": "show",
+    "labelledby": "flush-headingOne",
+    "dataParent": "#accordionFlushExample2",
+    "ingredient": [
+      "⚫Pizca de sal",
+      "⚫1/2 Taza de azucar",
+      "⚫1 Taza de café tibio",
+      "⚫2 Tazas de harina 000",
+      "⚫1cda de polvo de hornear",
+      "⚫1Cdita Escencia de vainilla",
+      "⚫1/4 Taza de aceite de girasol",
+      "⚫Ddl vegano Cantidad necesaria",
+      "⚫2 tiras de chocolate p/ repostería (cualquier apto)"
+    ],
+    "classDescription": "ingredientes--2",
+    "description": [
+      "1️⃣El un bowl agregar el azucar, aceite, café tibio, el polvo de hornear, escencia de vainilla, la pizca de sal e integrar bien con batidor de mano. Una vez bien integrado todo ir agregando la harina de a poco, si tienen para tamizar mejor, va a quedar mas esponjoso. Pueden integrar la harina con movimientos envolventes o con batidor de mano pero SIN BATIR, de lo contrario despues puede quedar denso el relleno. Lo mejor es solo integrarlo bien, con movimiemtos suaves y sin revolver mucho, así queda bien esponjoso.",
+      "2️⃣Tomar una de las tiras de chocolate y rallarlo en la preparación e integrar. La otra cortarla en trocitos pequeños y agregar por encima una vez colocado el relleno en los moldes. No necesitan aceitar o enharinar simplemente los agregan a moldes de magdalenas que los venden en cualquier papeleria o chino.",
+      "3️⃣Enviar al horno en una fuente por unos 10 minutos con el horno precalentado previamente. Horno medio. Se hacen muy rápido. Cuando están frios agregarles dulce de leche vegano, el que tengan con una manga o una bolsita en la zona de abajo en el medio y listos los Muffines."
+    ]
+  },
+  {
+    "img": "img-rece5",
+    "id": "flush-headingTwo",
+    "dataTarget": "#flush-collapseTwo",
+    "ariaControls": "flush-collapseTwo",
+    "title": "Medialunas sin Manteca",
+    "id2": "flush-collapseTwo",
+    "show": "",
+    "labelledby": "flush-headingTwo",
+    "dataParent": "#accordionFlushExample2",
+    "ingredient": [
+      "⚫Leche vegetal 200cc",
+      "⚫Levadura fresca 50gr",
+      "⚫Margarina vegetal 120gr",
+      "⚫Azúcar 150gr",
+      "⚫Harina 0000 500gr",
+      "⚫Pizca de sal",
+      "Empaste y almibar:",
+      "⚫Harina 0000",
+      "⚫Margarina derretida 50gr",
+      "⚫Azúcar y agua cantidades iguales"
+    ],
+    "classDescription": "",
+    "description": [
+      "1️⃣Colocar la harina en forma de corona y en el medio agregar la levadura. Agregar media taza de la leche tibia y el azúcar e integrarlas bien y dejar fermentar 10minutos.<",
+      "2️⃣Una vez activa, agregarle la margarina (70gr) a temperatura ambiente y desarmar con los dedos. Antes de integrar agregar en la parte seca de la corona unas pizcas de sal. Una vez integrada la margarina ir agregando el resto de la leche hasta obtener una masa. Amasar durante 10mint con movimientos suaves, y dejarla leudar 30 minutos más.",
+      "3️⃣Desinflar la masa y estirarla sobre la mesada. Primero con los dedos y luego con palote. Estirarla y doblarla en forma de libro unas 3 veces o más. Lo que queda de margarina es para pincelar las capas, pincelar y espolvorear harina.",
+      "5️⃣Por último cortar triangunos y envolverlas sobre sí mismas para su forma característica. Las llevan a una bandeja y dejan leudar 30 mint más antes de hornear. Preparar el almibar con iguales cantidades de agua y azucar hasta que burbujee.Llevar a horno Medio entre 15/20 mint aprox. Apenas salidos del horno pincelar con el almibar y huala!."
+    ]
+  },
+  {
+    "img": "img-rece6",
+    "id": "flush-headingThree",
+    "dataTarget": "#flush-collapseThree",
+    "ariaControls": "flush-collapseThree",
+    "title": "Budín de Naranja Limón y Canela",
+    "id2": "flush-collapseThree",
+    "show": "",
+    "labelledby": "flush-headingThree",
+    "dataParent": "#accordionFlushExample2",
+    "ingredient": [
+      "⚫1 y 1/2 Taza de harina común",
+      "⚫1 Taza de harina integral",
+      "⚫3/4 ó 1 taza de azúcar (común, rubia o mascabo)",
+      "⚫1/2 Taza de aceite de girasol",
+      "⚫3 naranjas",
+      "⚫1 limón",
+      "⚫1Cda de canela en polvo",
+      "⚫2 Cdas de porvo para hornear"
+    ],
+    "classDescription": "ingredientes--2",
+    "description": [
+      "🟦En un recipiente agregar el azúcar, el aceite, el jugo de 3 naranjas y de un limón. A continuación agregar ralladura de naranja y limón, las cantidades que quieran, y la canela. Por último ir integrando las harinas y el polvo de hornear, agregar agua si es necesario, integrar con movimientos envolventes. En un molde aceitado previamente colocar la preparación y enviar a horno medio precalentado unos minutos antes. Para el almíbar pueden usar el jugo de un cítrico y azúcar impalpable (o común si no tienen) en partes iguales, y una vez frío bañar al budín. También pueden agregarle frutas o semillas, nueces para decorar ya eso es opcional.",
+      "🟦Tip el punto de la preparacion: pueden probar haciendo un 8 o una S con la cuchara."
+    ]
+  }
+]

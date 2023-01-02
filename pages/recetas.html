@@ -28,6 +28,8 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- css -->
   <link rel="stylesheet" href="../css/estilos.css" />
+  <!-- js -->
+  <script defer src="../js/index.js"></script>
 </head>
 
 <body>
@@ -83,7 +85,7 @@
             </li>
           </ul>
           <form class="style-search col-3" role="search">
-            <input class="form-control me-2" type="search" placeholder=" Buscador de recetas" aria-label="Search" />
+            <input class="buscador me-2" type="search" placeholder=" Buscador de recetas" aria-label="Search" />
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
               viewBox="0 0 16 16">
               <path
@@ -99,29 +101,34 @@
   <main id="main-2">
     <h1 class="style-h2">a base de plantas...</h1>
 
+    <div class="container-fluid cont-main">
+
     <!-- CARROUSEL -->
     <div id="carouselExampleControls" class="container-fluid carousel slide animate__animated animate__bounceIn"
       data-bs-ride="carousel">
+
       <div class="carousel-inner">
         <!-- tanda1 -->
         <div class="carousel-item active">
+
           <div class="d-block w-100 d-flex flex-wrap justify-content-evenly gap-2">
             <div class="carousel-principales">
               <div class="tarjeta">
                 <p><i>Índice de recetas</i></p>
                 <h2 class="style-h2">Principales</h2>
                 <hr>
-                <a href="recetas.html#principales">
+                <a href="recetas.html#accordionFlushExample">
                   <p>Ir a platos principales <i class="bi bi-caret-down-fill"></i></p>
                 </a>
               </div>
             </div>
+            
             <div class="carousel-dulces">
               <div class="tarjeta">
                 <p><i>Índice de recetas</i></p>
                 <h2 class="style-h2">Dulces</h2>
                 <hr>
-                <a href="recetas.html#dulces">
+                <a href="recetas.html#accordionFlushExample2">
                   <p>Ir a platos dulces <i class="bi bi-caret-down-fill"></i></p>
                 </a>
               </div>
@@ -136,7 +143,7 @@
                 <p><i>Índice de recetas</i></p>
                 <h2 class="style-h2">Leches</h2>
                 <hr>
-                <a href="recetas.html#leches">
+                <a href="recetas.html#accordionFlushExample3">
                   <p>Ir a recetas de leches <i class="bi bi-caret-down-fill"></i></p>
                 </a>
               </div>
@@ -146,7 +153,7 @@
                 <p><i>Índice de recetas</i></p>
                 <h2 class="style-h2">Quesos</h2>
                 <hr>
-                <a href="recetas.html#quesos">
+                <a href="recetas.html#accordionFlushExample4">
                   <p>Ir a recetas de quesos <i class="bi bi-caret-down-fill"></i></p>
                 </a>
               </div>
@@ -161,7 +168,7 @@
                 <p><i>Índice de recetas</i></p>
                 <h2 class="style-h2">Snacks</h2>
                 <hr>
-                <a href="recetas.html#snacks">
+                <a href="recetas.html#accordionFlushExample5">
                   <p>Ir a recetas de snacks <i class="bi bi-caret-down-fill"></i></p>
                 </a>
               </div>
@@ -199,189 +206,13 @@
         <!-- BTN PRINCIPALES -->
         <div class="accordion-item" data-aos="fade-up" data-aos-duration="3000">
           <h2 id="headingOne"> <button id="principales" class="accordion-button style-h4" type="button"
-              data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Principales</button></h2>
+              data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Principales</button></h2>
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
             data-bs-parent="#accordionExample">
             <!-- Recetas principales -->
             <div class="accordion-body">
-              <div class="accordion accordion-flush" id="accordionFlushExample">
-                <!-- Pan relleno -->
-                <div>
-                  <div class="img-rece img-rece1 d-flex flex-column justify-content-end">
-                    <h2 class="accordion-header style-h3" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"
-                      id="flush-headingOne"> <i class="bi bi-caret-down-fill"></i> Pan Relleno con Soja Texturizada
-                    </h2>
-                  </div>
-
-                  <div id="flush-collapseOne" class="accordion-collapse collapse show"
-                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-
-                    <div class="accordion-body">
-
-                      <article class=" ingredientes my-3">
-
-                        <p><i>🥬Ingredientes:</i></p>
-                        <ul>
-                          <li>⚫2 tazas de harina</li>
-                          <li>⚫1 sobrecito levadura en polvo</li>
-                          <li>⚫1cda azúcar</li>
-                          <li>⚫1 chorrito aceite</li>
-                          <li>⚫Sal a gusto</li>
-                          <li>⚫1 Cebolla</li>
-                          <li>⚫1 Zapallito</li>
-                          <li>⚫1 morrón</li>
-                          <li>⚫3/4 Taza de soja texturizada</li>
-                          <li>⚫1 Saborizante alicante de carne</li>
-                          <li>⚫Sal, pimentón, ajo en polvo, comino, sal y pimienta, aceite y sal c/n</li>
-                        </ul>
-
-                        <p><i>🙌Preparación:</i></p>
-                        <p> 1️⃣Para el relleno picar la cebolla y rehogar con aceite y sal hasta que esté transparente,
-                          agregar el Zapallito en cubitos y rehogar junto con la cebolla e ir agregando agua para que no
-                          se
-                          seque
-                          el fondo. Cuando el Zapallito esté blandito agregarle aproximadamente 3/4 taza de agua,
-                          sazonar con el
-                          caldito y las especias y cocinar unos minutos para que se asienten los sabores, agregar la
-                          soja
-                          texturizada y cocinar hasta que la soja este hidratada y cocida.</p>
-                        <p> 2️⃣Para la masa agregar en un recipiente la harina, en el centro hacer un hueco y agregar la
-                          cucharada
-                          de azúcar junto con la levadura, un chorrito de aceite y 1/4 aprox de taza de agua tibia,
-                          revolver
-                          junto
-                          con un poco de la harina y dejar fermentar por unos 10 minutos. Cuando se active la levadura
-                          empezar a
-                          integrar y agregar más agua si es necesario, antes de terminar de formar la masa agregarle la
-                          sal.
-                          Amasar durante 10 minutos. En una fuente estirarla con los dedos como si fuese una pizzeta y
-                          agregar
-                          el relleno en uno de los extremos para empezar a enrrollar y darle forma de pan de molde.
-                          Enviar a
-                          horno medio/fuerte durante 10-15 minutos.</p>
-                      </article>
-
-                    </div>
-                  </div>
-                </div>
-                <!-- Tortilla -->
-                <div>
-                  <div class="img-rece img-rece2 d-flex flex-column justify-content-end">
-                    <h2 class="accordion-header style-h3" id="flush-headingTwo" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                      <i class="bi bi-caret-down-fill"></i> Tortilla sin huevos </h2>
-                  </div>
-
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                    data-bs-parent="#accordionFlushExample">
-
-                    <div class="accordion-body">
-
-                      <article class=" ingredientes my-3">
-
-                        <p><i>🥬Ingredientes:</i></p>
-                        <ul>
-                          <li>⚫1 Taza de harina de garbanzos.</li>
-                          <li>⚫2 Papas medianas</li>
-                          <li>⚫1 Espinaca</li>
-                          <li>⚫1 Cebolla</li>
-                          <li>⚫Ajo y perejil</li>
-                          <li>⚫Sal y pimienta</li>
-                          <li>⚫Aceite</li>
-                        </ul>
-
-                        <p><i>🙌Preparación:</i></p>
-
-                        <p class="ingredientes--2"> 1️⃣ Sofreír cebollas picadas con un poco de aceite y retirar. En la
-                          misma sartén agregamos 3/4 taza
-                          de
-                          aceite más o menos y ponemos a sofreír las papas picadas, en cubos o finitas para lograr una
-                          tortilla
-                          más compacta. Las papas no tienen que flotar en aceite, simplemente tienen que estar bañadas
-                          para
-                          cocinarlas hasta que estén blanditas, como hicimos con las cebollas. Van a ver qué se ponen
-                          blanditas
-                          y
-                          doradas en algunas partes, no tengan miedo si se desarman es la idea. Si las quieren más
-                          livianas
-                          simplemente las hierven. Cuando vemos que ya casi está agregamos la espinaca para desmayarla
-                          en la
-                          preparación, apartamos todo y dejamos entibiar.</p>
-
-                        <p> 2️⃣ En un voul agregamos la harina de garbanzos con poquito de agua y condimentar con ajo y
-                          perejil
-                          fresco, pimienta y sal a gusto. Nos tiene que quedar una mezcla como la de los panqueques,
-                          esto
-                          reemplazará el huevo. Le agregamos en el mismo voul el relleno de la tortilla e integramos
-                          bien todo.
-                        </p>
-
-                        <p> 3️⃣ Ahora en una sartén que usen para tortilla agregan la preparación, antes un chorro de
-                          aceite y
-                          el
-                          fuego medio más o menos y dejamos cocinar muy bien hasta que lo veamos dorado de los costados.
-                          La
-                          giramos y hacemos lo mismo del otro lado.</p>
-                      </article>
-
-                    </div>
-                  </div>
-                </div>
-                <!-- Patitas -->
-                <div>
-                  <div class="img-rece img-rece3 d-flex flex-column justify-content-end">
-                    <h2 class="accordion-header style-h3" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"
-                      id="flush-headingThree"> <i class="bi bi-caret-down-fill"></i> Patitas de No Pollo</h2>
-                  </div>
-
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                    data-bs-parent="#accordionFlushExample">
-
-                    <div class="accordion-body">
-
-                      <article class="ingredientes my-3">
-
-                        <p><i>🥬Ingredientes:</i></p>
-                        <ul>
-                          <li>⚫Tofu cortado en cubos y remojado en salsa de soja</li>
-                        </ul>
-
-                        <ul>
-                          <li>1mer Rebozado:</li>
-                          <li>⚫1/2 Taza de harina</li>
-                          <li>⚫1Cdita de azúcar</li>
-                          <li>⚫Sal, Ajo en polvo, pimentón</li>
-                          <li>⚫1Sobrecito alicante sabor carne o pollo (apto vegan)</li>
-                        </ul>
-
-                        <ul>
-                          <li>Marinado:</li>
-                          <li>⚫1Taza de agua.</li>
-                          <li>⚫1/4 Salsa de soja, pueden agregar chimichurri u otra salsa</li>
-                          <li>⚫Entre 4 y 8cdas de harina de garbanzos (Mezcla parecida a panqueques)</li>
-                        </ul>
-
-                        <ul>
-                          <li>2do rebozado:</li>
-                          <li>⚫Pan rallado o panko</li>
-                        </ul>
-
-                        <p><i>🙌Preparación:</i></p>
-                        <p>🟦Al tofu ya remojado pasarlo por el marinado, luego por el 1mer rebozado. Luego pasarlo
-                          nuevamente
-                          por el marinado y volver a rebozar con pan rallado y panko. Y ya por último elegir cocción,
-                          puede ser
-                          frito o al horno se hace en pocos minutos. El tofu lo pueden comprar en dietéticas o hacerlo
-                          casero a
-                          base de frijoles o porotos de soja.</p>
-                      </article>
-
-                    </div>
-                  </div>
-                </div>
+              <div class="accordion accordion-flush " id="accordionFlushExample">
+                
               </div>
             </div>
           </div>
@@ -397,172 +228,7 @@
             <!-- Recetas Dulces -->
             <div class="accordion-body">
               <div class="accordion accordion-flush" id="accordionFlushExample2">
-                <!-- Muffines -->
-                <div>
-                  <div class="img-rece img-rece4 d-flex flex-column justify-content-end" id="muffines">
-                    <h2 class="accordion-header style-h3" id="flush-headingOne" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      <i class="bi bi-caret-down-fill"></i> Muffines o Magdalenas</h2>
-                  </div>
 
-                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                    data-bs-parent="#accordionFlushExample2">
-
-                    <div class="accordion-body">
-
-                      <article class="ingredientes my-3" id="dulces">
-
-                        <p><i>🥬Ingredientes:</i></p>
-                        <ul>
-                          <li>⚫Pizca de sal</li>
-                          <li>⚫1/2 Taza de azucar</li>
-                          <li>⚫1 Taza de café tibio</li>
-                          <li>⚫2 Tazas de harina 000</li>
-                          <li>⚫1cda de polvo de hornear</li>
-                          <li>⚫1Cdita Escencia de vainilla</li>
-                          <li>⚫1/4 Taza de aceite de girasol</li>
-                          <li>⚫Ddl vegano Cantidad necesaria</li>
-                          <li>⚫2 tiras de chocolate p/ repostería (cualquier apto)</li>
-                        </ul>
-
-                        <p><i>🙌Preparación:</i></p>
-                        <p class="ingredientes--2">1️⃣El un bowl agregar el azucar, aceite, café tibio, el polvo de
-                          hornear, escencia de vainilla, la
-                          pizca de sal e integrar bien con batidor de mano. Una vez bien integrado todo ir agregando la
-                          harina
-                          de a poco,
-                          si tienen para tamizar mejor, va a quedar mas esponjoso. Pueden integrar la harina con
-                          movimientos
-                          envolventes o con batidor de mano pero SIN BATIR, de lo contrario despues puede quedar denso
-                          el
-                          relleno.
-                          Lo mejor es solo integrarlo bien, con movimiemtos suaves y sin revolver mucho, así queda bien
-                          esponjoso.
-                        </p>
-
-                        <p>2️⃣Tomar una de las tiras de chocolate y rallarlo en la preparación e integrar. La otra
-                          cortarla
-                          en trocitos pequeños y agregar por encima una vez colocado el relleno en los moldes. No
-                          necesitan
-                          aceitar o enharinar simplemente los agregan a moldes de magdalenas que los venden en cualquier
-                          papeleria
-                          o chino.</p>
-
-                        <p>3️⃣Enviar al horno en una fuente por unos 10 minutos con el horno precalentado previamente.
-                          Horno
-                          medio. Se hacen muy rápido. Cuando están frios agregarles dulce de leche vegano, el que tengan
-                          con una
-                          manga o una bolsita en la zona de abajo en el medio y listos los Muffines.</p>
-                      </article>
-
-                    </div>
-                  </div>
-                </div>
-                <!-- Medialunas -->
-                <div>
-                  <div class="img-rece img-rece5 d-flex flex-column justify-content-end" id="medialunas">
-                    <h2 class="accordion-header style-h3" id="flush-headingTwo" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                      <i class="bi bi-caret-down-fill"></i> Medialunas sin Manteca </h2>
-                  </div>
-
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                    data-bs-parent="#accordionFlushExample2">
-
-                    <div class="accordion-body">
-
-                      <article class="ingredientes my-3">
-                        <p><i>🥬Ingredientes:</i></p>
-
-                        <ul>
-                          <li>⚫Leche vegetal 200cc</li>
-                          <li>⚫Levadura fresca 50gr</li>
-                          <li>⚫Margarina vegetal 120gr</li>
-                          <li>⚫Azúcar 150gr</li>
-                          <li>⚫Harina 0000 500gr</li>
-                          <li>⚫Pizca de sal</li>
-                          <li>Empaste y almibar:</li>
-                          <li>⚫Harina 0000</li>
-                          <li>⚫Margarina derretida 50gr</li>
-                          <li>⚫Azúcar y agua cantidades iguales</li>
-                        </ul>
-
-                        <p><i>🙌Preparación:</i></p>
-                        <p> 1️⃣Colocar la harina en forma de corona y en el medio agregar la levadura. Agregar media
-                          taza de la
-                          leche tibia y el azúcar e integrarlas bien y dejar fermentar 10minutos.</p>
-
-                        <p> 2️⃣Una vez activa, agregarle la margarina (70gr) a temperatura ambiente y desarmar con los
-                          dedos.
-                          Antes de integrar agregar en la parte seca de la corona unas pizcas de sal. Una vez integrada
-                          la
-                          margarina ir agregando el resto de la leche hasta obtener una masa. Amasar durante 10mint con
-                          movimientos suaves, y dejarla leudar 30 minutos más.</p>
-
-                        <p> 3️⃣Desinflar la masa y estirarla sobre la mesada. Primero con los dedos y luego con palote.
-                          Estirarla y doblarla en forma de libro unas 3 veces o más. Lo que queda de margarina es para
-                          pincelar
-                          las capas, pincelar y espolvorear harina.</p>
-
-                        <p> 5️⃣Por último cortar triangunos y envolverlas sobre sí mismas para su forma
-                          característica. Las llevan a una bandeja y dejan leudar 30 mint más antes de hornear. Preparar
-                          el
-                          almibar con iguales cantidades de agua y azucar hasta que burbujee.Llevar a horno Medio entre
-                          15/20
-                          mint aprox. Apenas salidos del horno pincelar con el almibar y huala!.</p>
-                      </article>
-
-                    </div>
-                  </div>
-                </div>
-                <!-- Budin -->
-                <div>
-                  <div class="img-rece img-rece6 d-flex flex-column justify-content-end">
-                    <h2 class="accordion-header style-h3" id="flush-headingThree" type="button"
-                      data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
-                      aria-controls="flush-collapseThree">
-                      <i class="bi bi-caret-down-fill"></i> Budín de Naranja Limón y Canela</h2>
-                  </div>
-
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                    data-bs-parent="#accordionFlushExample2">
-
-                    <div class="accordion-body">
-
-                      <article class=" ingredientes my-3">
-                        <p><i>🥬Ingredientes:</i></p>
-
-                        <ul>
-                          <li>⚫1 y 1/2 Taza de harina común</li>
-                          <li>⚫1 Taza de harina integral</li>
-                          <li>⚫3/4 ó 1 taza de azúcar (común, rubia o mascabo)</li>
-                          <li>⚫1/2 Taza de aceite de girasol</li>
-                          <li>⚫3 naranjas</li>
-                          <li>⚫1 limón</li>
-                          <li>⚫1Cda de canela en polvo</li>
-                          <li>⚫2 Cdas de porvo para hornear</li>
-                        </ul>
-
-                        <p><i>🙌Preparación:</i></p>
-                        <p class="ingredientes--2">🟦En un recipiente agregar el azúcar, el aceite, el jugo de 3
-                          naranjas y de un limón. A
-                          continuación agregar ralladura de naranja y limón, las cantidades que quieran, y la canela.
-                          Por último
-                          ir integrando las harinas y el polvo de hornear, agregar agua si es necesario, integrar con
-                          movimientos envolventes. En un molde aceitado previamente colocar la preparación y enviar a
-                          horno medio
-                          precalentado unos minutos antes. Para el almíbar pueden usar el jugo de un cítrico y azúcar
-                          impalpable
-                          (o común si no tienen) en partes iguales, y una vez frío bañar al budín. También pueden
-                          agregarle
-                          frutas o semillas, nueces para decorar ya eso es opcional.</p>
-
-                        <p>🟦Tip el punto de la preparacion: pueden probar haciendo un 8 o una S con la cuchara.</p>
-                      </article>
-
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -578,115 +244,7 @@
             <!-- Recetas leches -->
             <div class="accordion-body">
               <div class="accordion accordion-flush" id="accordionFlushExample3">
-                <!-- Leche avena -->
-                <div>
-                  <div class="img-rece img-rece7 d-flex flex-column justify-content-end">
-                    <h2 class="accordion-header style-h3" id="flush-headingOne" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      <i class="bi bi-caret-down-fill"></i> Leche de Avena </h2>
-                  </div>
 
-                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                    data-bs-parent="#accordionFlushExample3">
-
-                    <div class="accordion-body">
-
-                      <article class="ingredientes my-3">
-                        <p><i>🥬Ingredientes:</i></p>
-
-                        <ul>
-                          <li>⚫1 Taza de Avena</li>
-                          <li>⚫1 Taza de agua hirviendo</li>
-                          <li>⚫2 Tazas de agua de filtro</li>
-                        </ul>
-
-                        <p><i>🙌Preparación:</i></p>
-                        <p class="ingredientes--2">🟦En un recipiente agregar 1 taza de avena junto con 1 taza de agua
-                          hirviendo y dejar reposar entre
-                          10 y 30 minutos.</p>
-                        <p class="ingredientes--2">🟦Luego del tiempo de remojo agregar esta mezcla a la licuadora o a
-                          un recipiente para
-                          licuar con mixer. Agregarle las 2 tazas de agua y licuar durante unos minutos. Filtrar la
-                          mezcla con
-                          filtro de tela para obtener la leche de avena.</p>
-                      </article>
-
-                    </div>
-                  </div>
-                </div>
-                <!-- Leche mani -->
-                <div>
-                  <div class="img-rece img-rece8 d-flex flex-column justify-content-end">
-                    <h2 class="accordion-header style-h3" id="flush-headingTwo" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                      <i class="bi bi-caret-down-fill"></i> Leche de maní</h2>
-                  </div>
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                    data-bs-parent="#accordionFlushExample3">
-
-                    <div class="accordion-body">
-
-                      <article class="ingredientes my-3">
-                        <p><i>🥬Ingredientes:</i></p>
-
-                        <ul>
-                          <li>⚫1 Taza de maní tostado sin sal</li>
-                          <li>⚫2/3 Tazas de agua</li>
-                          <li>⚫2 y 1/2 Tazas de agua de filtro</li>
-                          <li>⚫1 Cucharadita de bicarbonato de sodio</li>
-                        </ul>
-
-                        <p><i>🙌Preparación:</i></p>
-                        <p class="ingredientes--2">🟦En este caso tenemos que remojar el maní durante 8horas. Antes de
-                          dejar en remojo enjuagar con
-                          abundante agua y lo dejarlo remojar en un recipiente con 2 o 3 tazas de agua y una cucharadita
-                          de
-                          bicarbonato de sodio. Si remojan por mas tiempo debemos ir cambiando el agua. Una vez
-                          remojados
-                          primero enjuagar bien, con abundante agua. Luego agregarlos a la licuadora o a un recipiente
-                          para
-                          mixear junto con las 2 y 1/2 tazas de agua bebible, y licuar/mixear durante unos minutos. Por
-                          ultimo
-                          filtrar con filtro de tela para obtener nuestra leche de maní.</p>
-                      </article>
-
-                    </div>
-                  </div>
-                </div>
-                <!-- Leche soja -->
-                <div>
-                  <div class="img-rece img-rece9 d-flex flex-column justify-content-end">
-                    <h2 class="accordion-header style-h3" id="flush-headingThree" type="button"
-                      data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
-                      aria-controls="flush-collapseThree">
-                      <i class="bi bi-caret-down-fill"></i> Leche de Soja </h2>
-                  </div>
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                    data-bs-parent="#accordionFlushExample3">
-
-                    <div class="accordion-body">
-
-                      <article class="ingredientes my-3">
-                        <p><i>🥬Ingredientes:</i></p>
-
-                        <ul>
-                          <li>⚫2Tazas de frijoles de soja remojados 8hs.</li>
-                          <li>⚫4Tazas de agua bebible.</li>
-                        </ul>
-
-                        <p><i>🙌Preparación:</i></p>
-                        <p class="ingredientes--2">🟦Para el proceso de remojo hacemos el mismo procedimiento que con el
-                          maní. Una vez remojados licuar o mixear por 2/3 minutos los frijoles y lo filtrar con filtro
-                          de tela (Lo pueden conseguir en
-                          dietéticas) y separar bien la okara (residuos de la soja).</p>
-                        <p class="ingredientes--2">🟦Llevar la leche colada a fuego medio e ir quitando toda la espuma y
-                          la nata que se forma. Cuando llega a hervor bajarle el fuego a mínumo y dejarlo 30 minutos.
-                          Una vez haya enfriado estará lista para consumo u otras preparaciones.</p>
-                      </article>
-
-                    </div>
-                  </div>
-                </div>
               </div>
 
             </div>
@@ -703,144 +261,8 @@
             <!-- Recetas quesos -->
             <div class="accordion-body">
               <div class="accordion accordion-flush" id="accordionFlushExample4">
-                <!-- Queso de papa -->
-                <div>
-                  <div class="img-rece img-rece10 d-flex flex-column justify-content-end" id="paparella">
-                    <h2 class="accordion-header style-h3" id="flush-headingOne" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      <i class="bi bi-caret-down-fill"></i> Paparella o queso de papa</h2>
-                  </div>
-
-                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                    data-bs-parent="#accordionFlushExample4">
-
-                    <div class="accordion-body">
-
-                      <article class=" ingredientes my-3">
-                        <p><i>🥬Ingredientes:</i></p>
-
-                        <ul>
-                          <li>⚫2 Papas hervidas</li>
-                          <li>⚫8Cdas del caldo de las papas.</li>
-                          <li>⚫1/4Taza de aceite de girasol.</li>
-                          <li>⚫1/2 Limón exprimido.</li>
-                          <li>⚫Sal, ajo y pimienta c/necesaria.</li>
-                          <li>⚫1Caldito alicante sabor queso (vegano) o escencia.</li>
-                          <li>⚫2Cdas de levadura nutricional.</li>
-                          <li>(Pueden usar de sabor queso y omitir el caldito o escencia)</li>
-                        </ul>
-
-                        <p><i>🙌Preparación:</i></p>
-                        <p class="ingredientes--2">🟦Tan fácil como Mixear, procesar o licuar todos los ingredientes
-                          hasta obtener una textura lo
-                          más lisa
-                          posible. El aceite le da la textura de queso, si lo quieren más fundido le agregan el caldo de
-                          las
-                          papas
-                          y aceite de a cucharadas en partes iguales hasta tener una textura a gusto. Va a depender del
-                          tamaño de
-                          las papas. Pueden agregar otras especias como perejil 🤤</p>
-                      </article>
-
-                    </div>
-                  </div>
-                </div>
-                <!-- Queso girasol -->
-                <div>
-                  <div class="img-rece img-rece11 d-flex flex-column justify-content-end">
-                    <h2 class="accordion-header style-h3" id="flush-headingTwo" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                      <i class="bi bi-caret-down-fill"></i> Queso gratinable de girasol</h2>
-                  </div>
-
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                    data-bs-parent="#accordionFlushExample4">
-
-                    <div class="accordion-body">
-
-                      <article class="ingredientes my-3">
-                        <p><i>🥬Ingredientes:</i></p>
-
-                        <ul>
-                          <li>⚫1 Taza de semillas de girasol remojadas</li>
-                          <li>⚫3 Tazas de agua</li>
-                          <li>⚫2 Cdas fecula de maiz</li>
-                          <li>⚫4 Cdas Fecula de mandioca</li>
-                          <li>⚫Levadura nutricional sabor queso</li>
-                          <li>o sobrecito alicante 4 quesos vegano</li>
-                          <li>⚫1/2 limon exprimido o vinagre de manzana</li>
-                          <li>⚫1cdita de curcuma</li>
-                          <li>⚫Sal a gusto</li>
-                        </ul>
-
-                        <p><i>🙌Preparación:</i></p>
-                        <p class="ingredientes--2">🟦Licuar o mixear las semillas de girasol con las 3 tazas de agua y
-                          filtrar con filtro de
-                          tela para separar la okara. A la leche que se obtiene agregarle todos los ingredientes e
-                          integrar
-                          bien.
-                          Para intregrar las feculas y que no queden grumos mezclar en un recipiente aparte con media
-                          taza
-                          de la
-                          leche y volver a integrar con toda la preparación. Enviar toda la preparación a fuego medio en
-                          una
-                          olla
-                          e ir revolviendolo hasta que se espece bien, una vez se espesa mantener por unos minutos más
-                          para
-                          que
-                          cuando se enfríe quede moldeado, siempre revolviendo. Enviar a un recipiente o tupper aceitado
-                          y
-                          dejar
-                          enfriar a temperatura ambiente, luego heladera y ya esta listo para desmoldar🔥</p>
-
-                        <p>🟦Se puede repetir el procedimiento con otras semillas como mani, almendras les queda este
-                          quesito
-                          gratinable tipo muzza para pizzas empanadas sandwichs, tostados lo que quieran.</p>
-                      </article>
-
-                    </div>
-                  </div>
-                </div>
-                <!-- Rawmesan -->
-                <div>
-                  <div class="img-rece img-rece12 d-flex flex-column justify-content-end">
-                    <h2 class="accordion-header style-h3" id="flush-headingThree" type="button"
-                      data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
-                      aria-controls="flush-collapseThree">
-                      <i class="bi bi-caret-down-fill"></i> Rawmesan o Queso rallado</h2>
-                  </div>
-
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                    data-bs-parent="#accordionFlushExample4">
-
-                    <div class="accordion-body">
-
-                      <article class="ingredientes my-3">
-                        <p><i>🥬Ingredientes:</i></p>
-
-                        <ul>
-                          <li>⚫1 Taza de semillas de girasol</li>
-                          <li>⚫2 Cucharadas de levadura nutricional sabor queso.</li>
-                          <li>(Se puede reemplazar por sobrecitos
-                            alicante sabor queso. Son veganos)</li>
-                          <li>⚫1 Cucharadita de cúrcuma</li>
-                          <li>⚫1 Cucharadita de Ajo</li>
-                          <li>⚫Sal y pimienta a gusto.</li>
-                        </ul>
-
-                        <p><i>🙌Preparación:</i></p>
-                        <p class="ingredientes--2">🟦Tan facil como agregar todos los ingredientes a un procesador o
-                          recipiente y mixear hasta obtener una textura de parmesano!.</p>
-
-                        <p>Riquisimo!</p>
-                      </article>
-
-                    </div>
-                  </div>
-                </div>
+                
               </div>
-
-
             </div>
           </div>
         </div>
@@ -855,140 +277,13 @@
             <!-- Recetas snacks -->
             <div class="accordion-body">
               <div class="accordion accordion-flush" id="accordionFlushExample5">
-                <!-- Snacks garbanzos -->
-                <div class=>
-                  <div class="img-rece img-rece13 d-flex flex-column justify-content-end">
-                    <h2 class="accordion-header style-h3" id="flush-headingOne" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      <i class="bi bi-caret-down-fill"></i> Snacks de garbanzos Crocantes</h2>
-                  </div>
-
-                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                    data-bs-parent="#accordionFlushExample5">
-
-                    <div class="accordion-body">
-
-                      <article class="ingredientes my-3">
-                        <p><i>🥬Ingredientes:</i></p>
-
-                        <ul>
-                          <li>⚫Garbanzos ya cocinados/hervidos.</li>
-                          <li>⚫Especias las que quieras.</li>
-                          <li>Yo usé Ajo en polvo y perejil seco, orégano, pimentón sal y pimienta.
-                          </li>
-                          <li>⚫Chorringui generoso de aceite (el de preferencia).</li>
-                        </ul>
-
-                        <p><i>🙌Preparación:</i></p>
-                        <p class="ingredientes--2">🟦Tan fácil como enviar todo al horno en una fuente aceitada. Yo
-                          primero condimente todo en un voul
-                          aparte con un poco de aceite, especias y sal, los coloque en la fuente y envié a horno
-                          medio/fuerte en
-                          la parte superior por unos 30minutos aprox y listo. Ir probandolos y removiendo hasta que
-                          estén a
-                          gusto.</p>
-
-                        <p class="ingredientes--2">🟦Tip para las legumbres: Remojarlas y cocinarlas en cantidad, para
-                          luego guardarlas hervidas en
-                          el freezer en bolsitas para tener a mano. Si tenés garbanzos freezados úsalos directo no hace
-                          falta
-                          descongelar. Cuando los snacks se enfríen se ponen más crujientes.</p>
-                      </article>
-
-                    </div>
-                  </div>
-                </div>
-                <!-- Bizcochitos -->
-                <div class=>
-                  <div class="img-rece img-rece14 d-flex flex-column justify-content-end">
-                    <h2 class="accordion-header style-h3" id="flush-headingTwo" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                      <i class="bi bi-caret-down-fill"></i> Bizcochitos de No grasa</h2>
-                  </div>
-
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                    data-bs-parent="#accordionFlushExample5">
-
-                    <div class="accordion-body">
-
-                      <article class="ingredientes my-3">
-                        <p><i>🥬Ingredientes:</i></p>
-
-                        <ul>
-                          <li>⚫1 Taza de harina 000 o 0000 (agregar mas si es necesario)</li>
-                          <li>⚫1/4 Taza de aceite de girasol</li>
-                          <li>⚫2Cdas de levadura nutricional sabor queso (opcional)</li>
-                          <li>⚫2cditas de polvo de hornear</li>
-                          <li>⚫Sal y 1/2 taza de agua aprox</li>
-                        </ul>
-
-                        <p><i>🙌Preparación:</i></p>
-                        <p class="ingredientes--2">🟦En un voulcito agregar todos los ingredientes secos. La harina
-                          agregamos solo 1/2 taza y
-                          reservamos la otra mitad, agregar la levadura nutricional, polvo de hornear y la sal. A
-                          continuación
-                          agregar el aceite y revolver tiene que quedar como una pasta bien integrado y agregar 1/2 taza
-                          de agua
-                          tibia aprox. Por ultimo agregar la 1/2 taza de harina hasta formar una masa, si es necesario
-                          agregar
-                          mas
-                          harina para formar la masa. La masa tiene que ser muy maleable y no pegarse si tiene el aceite
-                          necesario. Por ultimo estirar en la mesada y cortar con una tapita o darle forma de masitas
-                          con las
-                          manos y enviar a horno medio por 10 /15 minutos aprox.</p>
-
-                        <p>🟦Para más cantidad duplica los ingredientes. Son super ricas, faciles y rapidisimas de
-                          hacer.</p>
-                      </article>
-
-                    </div>
-                  </div>
-                </div>
-                <!-- Chipas -->
-                <div class=>
-                  <div class="img-rece img-rece15 d-flex flex-column justify-content-end">
-                    <h2 class="accordion-header style-h3" id="flush-headingThree" type="button"
-                      data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
-                      aria-controls="flush-collapseThree">
-                      <i class="bi bi-caret-down-fill"></i> Chipas en 15 minutos</h2>
-                  </div>
-
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                    data-bs-parent="#accordionFlushExample5">
-
-                    <div class="accordion-body">
-
-                      <article class="ingredientes my-3">
-                        <p><i>🥬Ingredientes:</i></p>
-                        <ul>
-                          <li>⚫Jugo de 2 naranjas</li>
-                          <li>⚫50gr Margarina vegetal</li>
-                          <li>⚫1/2 Taza fécula de Maiz</li>
-                          <li>⚫1 y 1/2 Taza fécula de Mandioca</li>
-                          <li>⚫1Caldito alicante 4quesos (es Vegano)</li>
-                          <li>⚫1Cda de polvo de hornear o lev en polvo</li>
-                          <li>⚫Leche vegetal o agua si es necesario </li>
-                          <li>agregar para formar la masa</li>
-                        </ul>
-
-                        <p><i>🙌Preparación:</i></p>
-                        <p class="ingredientes--2">🟦Integrar todos los ingredientes hasta tener una masa, no se amasa
-                          solo se integra y se divide en
-                          bollitos. La margarina agreguenla a temperatura ambiente y la desarman con la mano, si le
-                          falta
-                          líquido
-                          le agregan la leche veg o agua muy poquito. Enviar a horno medio/fuerte por 10/15 mint y
-                          listo🙌</p>
-                      </article>
-
-                    </div>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
   </main>
 

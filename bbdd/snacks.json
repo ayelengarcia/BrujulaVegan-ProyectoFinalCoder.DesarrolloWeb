@@ -1,0 +1,72 @@
+[
+  {
+    "img": "img-rece13",
+    "id": "flush-headingOne",
+    "dataTarget": "#flush-collapseOne",
+    "ariaControls": "flush-collapseOne",
+    "title": "Snacks de garbanzos Crocantes",
+    "id2": "flush-collapseOne",
+    "show": "show",
+    "labelledby": "flush-headingOne",
+    "dataParent": "#accordionFlushExample5",
+    "ingredient": [
+      "⚫Garbanzos ya cocinados/hervidos.",
+      "⚫Especias las que quieras.",
+      "Yo usé Ajo en polvo y perejil seco, orégano, pimentón sal y pimienta",
+      "⚫Chorringui generoso de aceite (el de preferencia)."
+    ],
+    "classDescription": "ingredientes--2",
+    "description": [
+      "🟦Tan fácil como enviar todo al horno en una fuente aceitada. Yo primero condimente todo en un voul aparte con un poco de aceite, especias y sal, los coloque en la fuente y envié a horno medio/fuerte en la parte superior por unos 30minutos aprox y listo. Ir probandolos y removiendo hasta que estén a gusto.",
+      "🟦Tip para las legumbres: Remojarlas y cocinarlas en cantidad, para luego guardarlas hervidas en el freezer en bolsitas para tener a mano. Si tenés garbanzos freezados úsalos directo no hace falta descongelar. Cuando los snacks se enfríen se ponen más crujientes."
+    ]
+  },
+  {
+    "img": "img-rece14",
+    "id": "flush-headingTwo",
+    "dataTarget": "#flush-collapseTwo",
+    "ariaControls": "flush-collapseTwo",
+    "title": "Bizcochitos de No grasa",
+    "id2": "flush-collapseTwo",
+    "show": "",
+    "labelledby": "flush-headingTwo",
+    "dataParent": "#accordionFlushExample5",
+    "ingredient": [
+      "⚫1 Taza de harina 000 o 0000 (agregar mas si es necesario)",
+      "⚫1/4 Taza de aceite de girasol",
+      "⚫2Cdas de levadura nutricional sabor queso (opcional)",
+      "⚫2cditas de polvo de hornear",
+      "⚫Sal y 1/2 taza de agua aprox"
+    ],
+    "classDescription": "ingredientes--2",
+    "description": [
+      "🟦En un voulcito agregar todos los ingredientes secos. La harina agregamos solo 1/2 taza y reservamos la otra mitad, agregar la levadura nutricional, polvo de hornear y la sal. A continuación agregar el aceite y revolver tiene que quedar como una pasta bien integrado y agregar 1/2 taza de agua tibia aprox. Por ultimo agregar la 1/2 taza de harina hasta formar una masa, si es necesario agregar mas harina para formar la masa. La masa tiene que ser muy maleable y no pegarse si tiene el aceite necesario. Por ultimo estirar en la mesada y cortar con una tapita o darle forma de masitas con las manos y enviar a horno medio por 10 /15 minutos aprox.",
+      "🟦Para más cantidad duplica los ingredientes. Son super ricas, faciles y rapidisimas de hacer."
+    ]
+  },
+  {
+    "img": "img-rece15",
+    "id": "flush-headingThree",
+    "dataTarget": "#flush-collapseThree",
+    "ariaControls": "flush-collapseThree",
+    "title": "Chipas en 15 minutos",
+    "id2": "flush-collapseThree",
+    "show": "",
+    "labelledby": "flush-headingThree",
+    "dataParent": "#accordionFlushExample6",
+    "ingredient": [
+      "⚫Jugo de 2 naranjas",
+      "⚫50gr Margarina vegetal",
+      "⚫1/2 Taza fécula de Maiz",
+      "⚫1 y 1/2 Taza fécula de Mandioca",
+      "⚫1Caldito alicante 4quesos (es Vegano)",
+      "⚫1Cda de polvo de hornear o lev en polvo",
+      "⚫Leche vegetal o agua si es necesario ",
+      "agregar para formar la masa"
+    ],
+    "classDescription": "ingredientes--2",
+    "description": [
+      "🟦Integrar todos los ingredientes hasta tener una masa, no se amasa solo se integra y se divide en bollitos. La margarina agreguenla a temperatura ambiente y la desarman con la mano, si le falta líquido le agregan la leche veg o agua muy poquito. Enviar a horno medio/fuerte por 10/15 mint y listo🙌"
+    ]
+  }
+]
