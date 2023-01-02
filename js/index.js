@@ -57,35 +57,46 @@ const SNACKS = [];
 
 
 fetch(URL)
-   .then((response) => (data = response.json()))
-   .then((data) => PRINCIPALES.push(...data))
-   .then(() =>
-      recorrerObjetos(PRINCIPALES, returnReceta, contenedorPrincipales)
-   );
+  .then((response) => (data = response.json()))
+  .then((data) => PRINCIPALES.push(...data))
+  .then(
+    () => recorrerObjetos(PRINCIPALES, returnReceta, contenedorPrincipales),
+    () => li(array),
+    () => p(array)
+);
+  
 fetch(URL2)
-   .then((response) => (data = response.json()))
-   .then((data) => DULCES.push(...data))
-   .then(() =>
-      recorrerObjetos(DULCES, returnReceta, contenedorDulces),
-   );
+  .then((response) => (data = response.json()))
+  .then((data) => DULCES.push(...data))
+  .then(
+    () => recorrerObjetos(DULCES, returnReceta, contenedorDulces),
+    () => li(array),
+    () => p(array)
+  );
 fetch(URL3)
-   .then((response) => (data = response.json()))
-   .then((data) => LECHES.push(...data))
-   .then(() =>
-      recorrerObjetos(LECHES, returnReceta, contenedorLeches),
-   );
+  .then((response) => (data = response.json()))
+  .then((data) => LECHES.push(...data))
+  .then(
+    () => recorrerObjetos(LECHES, returnReceta, contenedorLeches),
+    () => li(array),
+    () => p(array)
+  );
 fetch(URL4)
-   .then((response) => (data = response.json()))
-   .then((data) => QUESOS.push(...data))
-   .then(() =>
-      recorrerObjetos(QUESOS, returnReceta, contenedorQuesos),
-   );
+  .then((response) => (data = response.json()))
+  .then((data) => QUESOS.push(...data))
+  .then(
+    () => recorrerObjetos(QUESOS, returnReceta, contenedorQuesos),
+    () => li(array),
+    () => p(array)
+  );
 fetch(URL5)
-   .then((response) => (data = response.json()))
-   .then((data) => SNACKS.push(...data))
-   .then(() =>
-      recorrerObjetos(SNACKS, returnReceta, contenedorSnacks),
-   );
+  .then((response) => (data = response.json()))
+  .then((data) => SNACKS.push(...data))
+  .then(
+    () => recorrerObjetos(SNACKS, returnReceta, contenedorSnacks),
+    () => li(array),
+    () => p(array)
+  );
 
 
 const li = (array) => {
