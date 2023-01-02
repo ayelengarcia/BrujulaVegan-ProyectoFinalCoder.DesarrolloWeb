@@ -45,11 +45,11 @@ const contenedorLeches = document.querySelector("#accordionFlushExample3");
 const contenedorQuesos = document.querySelector("#accordionFlushExample4");
 const contenedorSnacks = document.querySelector("#accordionFlushExample5");
 
-const URL = "/bbdd/principales.json";
-const URL2 = "/bbdd/dulces.json";
-const URL3 = "/bbdd/leches.json";
-const URL4 = "/bbdd/quesos.json";
-const URL5 = "/bbdd/snacks.json";
+const URL = "../bbdd/principales.json";
+const URL2 = "../bbdd/dulces.json";
+const URL3 = "../bbdd/leches.json";
+const URL4 = "../bbdd/quesos.json";
+const URL5 = "../bbdd/snacks.json";
 
 const PRINCIPALES = [];
 const DULCES = [];
