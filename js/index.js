@@ -44,60 +44,35 @@ const contenedorLeches = document.querySelector("#accordionFlushExample3");
 const contenedorQuesos = document.querySelector("#accordionFlushExample4");
 const contenedorSnacks = document.querySelector("#accordionFlushExample5");
 
-const URL = "/bbdd/principales.json";
-const PRINCIPALES = [];
-const URL2 = "/bbdd/dulces.json";
-const DULCES = [];
-const URL3 = "/bbdd/leches.json";
-const LECHES = [];
-const URL4 = "/bbdd/quesos.json";
-const QUESOS = [];
-const URL5 = "/bbdd/snacks.json";
-const SNACKS = [];
+const URL_PRINCIPALES = "/bbdd/principales.json";
+const URL_DULCES = "/bbdd/dulces.json";
+const URL_LECHES = "/bbdd/leches.json";
+const URL_QUESOS = "/bbdd/quesos.json";
+const URL_SNACKS = "/bbdd/snacks.json";
 
-
-fetch(URL)
-  .then((response) => (data = response.json()))
-  .then((data) => PRINCIPALES.push(...data))
-  .then(
-    () => recorrerObjetos(PRINCIPALES, returnReceta, contenedorPrincipales),
-    () => li(array),
-    () => p(array)
-);
+async function cargarDatos() {
+  const respuestaPrincipales = await fetch(URL_PRINCIPALES);
+  const datosPrincipales = await respuestaPrincipales.json();
+  recorrerObjetos(datosPrincipales, returnReceta, contenedorPrincipales);
   
-fetch(URL2)
-  .then((response) => (data = response.json()))
-  .then((data) => DULCES.push(...data))
-  .then(
-    () => recorrerObjetos(DULCES, returnReceta, contenedorDulces),
-    () => li(array),
-    () => p(array)
-  );
-fetch(URL3)
-  .then((response) => (data = response.json()))
-  .then((data) => LECHES.push(...data))
-  .then(
-    () => recorrerObjetos(LECHES, returnReceta, contenedorLeches),
-    () => li(array),
-    () => p(array)
-  );
-fetch(URL4)
-  .then((response) => (data = response.json()))
-  .then((data) => QUESOS.push(...data))
-  .then(
-    () => recorrerObjetos(QUESOS, returnReceta, contenedorQuesos),
-    () => li(array),
-    () => p(array)
-  );
-fetch(URL5)
-  .then((response) => (data = response.json()))
-  .then((data) => SNACKS.push(...data))
-  .then(
-    () => recorrerObjetos(SNACKS, returnReceta, contenedorSnacks),
-    () => li(array),
-    () => p(array)
-  );
+  const respuestaDulces = await fetch(URL_DULCES);
+  const datosDulces = await respuestaDulces.json();
+  recorrerObjetos(datosDulces, returnReceta, contenedorDulces);
+  
+  const respuestaLeches = await fetch(URL_LECHES);
+  const datosLeches = await respuestaLeches.json();
+  recorrerObjetos(datosLeches, returnReceta, contenedorLeches);
+  
+  const respuestaQuesos = await fetch(URL_QUESOS);
+  const datosQuesos = await respuestaQuesos.json();
+  recorrerObjetos(datosQuesos, returnReceta, contenedorQuesos);
+  
+  const respuestaSnacks = await fetch(URL_SNACKS);
+  const datosSnacks = await respuestaSnacks.json();
+  recorrerObjetos(datosSnacks, returnReceta, contenedorSnacks);
+}
 
+cargarDatos();
 
 const li = (array) => {
    let innerHTML = "";
