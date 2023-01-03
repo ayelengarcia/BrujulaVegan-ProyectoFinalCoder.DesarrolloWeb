@@ -44,11 +44,11 @@ const contenedorLeches = document.querySelector("#accordionFlushExample3");
 const contenedorQuesos = document.querySelector("#accordionFlushExample4");
 const contenedorSnacks = document.querySelector("#accordionFlushExample5");
 
-const URL_PRINCIPALES = "/bbdd/principales.json";
-const URL_DULCES = "/bbdd/dulces.json";
-const URL_LECHES = "/bbdd/leches.json";
-const URL_QUESOS = "/bbdd/quesos.json";
-const URL_SNACKS = "/bbdd/snacks.json";
+const URL_PRINCIPALES = "bbdd/principales.json";
+const URL_DULCES = "bbdd/dulces.json";
+const URL_LECHES = "bbdd/leches.json";
+const URL_QUESOS = "bbdd/quesos.json";
+const URL_SNACKS = "bbdd/snacks.json";
 
 async function cargarDatos() {
   const respuestaPrincipales = await fetch(URL_PRINCIPALES);
